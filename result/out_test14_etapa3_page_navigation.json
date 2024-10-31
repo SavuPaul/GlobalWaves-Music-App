@@ -1,0 +1,154 @@
+[ {
+  "command" : "addUser",
+  "user" : "TED",
+  "timestamp" : 10,
+  "message" : "The username TED has been added successfully."
+}, {
+  "command" : "addPodcast",
+  "user" : "TED",
+  "timestamp" : 15,
+  "message" : "TED is not a host."
+}, {
+  "command" : "addUser",
+  "user" : "Queen",
+  "timestamp" : 20,
+  "message" : "The username Queen has been added successfully."
+}, {
+  "command" : "addAlbum",
+  "user" : "Queen",
+  "timestamp" : 25,
+  "message" : "Queen has added new album successfully."
+}, {
+  "command" : "addUser",
+  "user" : "ghiu",
+  "timestamp" : 40,
+  "message" : "The username ghiu has been added successfully."
+}, {
+  "command" : "search",
+  "user" : "ghiu",
+  "timestamp" : 45,
+  "message" : "Search returned 1 results",
+  "results" : [ "TED Talks Daily" ]
+}, {
+  "command" : "select",
+  "user" : "ghiu",
+  "timestamp" : 50,
+  "message" : "Successfully selected TED Talks Daily."
+}, {
+  "command" : "load",
+  "user" : "ghiu",
+  "timestamp" : 55,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "changePage",
+  "user" : "ghiu",
+  "timestamp" : 60,
+  "message" : "ghiu accessed LikedContent successfully."
+}, {
+  "user" : "ghiu",
+  "command" : "printCurrentPage",
+  "timestamp" : 65,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "status",
+  "user" : "ghiu",
+  "timestamp" : 70,
+  "stats" : {
+    "name" : "The Power of Vulnerability",
+    "remainedTime" : 1197,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "changePage",
+  "user" : "ghiu",
+  "timestamp" : 75,
+  "message" : "ghiu is trying to access a non-existent page"
+}, {
+  "user" : "ghiu",
+  "command" : "printCurrentPage",
+  "timestamp" : 85,
+  "message" : null
+}, {
+  "command" : "search",
+  "user" : "ghiu",
+  "timestamp" : 90,
+  "message" : "Search returned 2 results",
+  "results" : [ "Bohemian Rhapsody", "Bohemian Rhapsody" ]
+}, {
+  "command" : "select",
+  "user" : "ghiu",
+  "timestamp" : 100,
+  "message" : "Successfully selected Bohemian Rhapsody."
+}, {
+  "command" : "load",
+  "user" : "ghiu",
+  "timestamp" : 105,
+  "message" : "Playback loaded successfully."
+}, {
+  "command" : "status",
+  "user" : "ghiu",
+  "timestamp" : 115,
+  "stats" : {
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 345,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "like",
+  "user" : "ghiu",
+  "timestamp" : 130,
+  "message" : "Like registered successfully."
+}, {
+  "command" : "status",
+  "user" : "ghiu",
+  "timestamp" : 165,
+  "stats" : {
+    "name" : "Bohemian Rhapsody",
+    "remainedTime" : 295,
+    "repeat" : "No Repeat",
+    "shuffle" : false,
+    "paused" : false
+  }
+}, {
+  "command" : "changePage",
+  "user" : "ghiu",
+  "timestamp" : 175,
+  "message" : "ghiu is trying to access a non-existent page"
+}, {
+  "command" : "like",
+  "user" : "ghiu",
+  "timestamp" : 195,
+  "message" : "Unlike registered successfully."
+}, {
+  "command" : "changePage",
+  "user" : "ghiu",
+  "timestamp" : 200,
+  "message" : "ghiu accessed Home successfully."
+}, {
+  "user" : "ghiu",
+  "command" : "printCurrentPage",
+  "timestamp" : 205,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "user" : "ghiu",
+  "command" : "printCurrentPage",
+  "timestamp" : 240,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "changePage",
+  "user" : "ghiu",
+  "timestamp" : 245,
+  "message" : "ghiu accessed Home successfully."
+}, {
+  "user" : "ghiu",
+  "command" : "printCurrentPage",
+  "timestamp" : 265,
+  "message" : "Liked songs:\n\t[]\n\nFollowed playlists:\n\t[]"
+}, {
+  "command" : "endProgram",
+  "result" : { }
+} ]
